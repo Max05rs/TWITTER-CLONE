@@ -1,4 +1,7 @@
+import { Avatar, Button } from '@mui/material'
 import React from 'react'
+import './components/TweetBox.css'
+
 
 function TweetBox() {
   return (
@@ -6,8 +9,11 @@ function TweetBox() {
       <form>
         <div className = "tweetBox_input">
           <Avatar 
-            src =" "/>
+            src ="src\assets\roro.jpeg"/>
+            <input type = "text"placeholder = "what's happening" />
         </div>
+        <imput className = "tweetBox_imageInput" placeholder = "optional: Enter image URL" />
+        <Button className = "tweetBox_tweetButton">Tweet</Button>
       </form>
     </div>
   )
