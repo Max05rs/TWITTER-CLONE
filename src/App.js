@@ -5,7 +5,7 @@ import TweetBox from './components/TweetBox';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <Sidebar />
       {/*Feed section*/}
       <Feed />
