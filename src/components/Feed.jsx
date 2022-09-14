@@ -1,22 +1,21 @@
-import React from 'react'; 
-import TweetBox from './TweetBox';
+import React, { useEffect, useState } from 'react'
 import './Feed.css'
-import post from './Post'
-
+import TweetBox from './TweetBox'
+import Post from './Post'
 
 function Feed() {
-    return(
+    const [posts, setPosts] = useState([]);
+
+    //console.log(posts)
+
+    return (
         <div className = "feed">
-            {/*Home*/}
-            <div className="feed_header">
-                <h2>Home</h2>     
-            </div> 
-            {/*Tweetbox*/}
+            <div className = "feed__header">
+                <h2>Home</h2>
+            </div>
+
             <TweetBox />
-            {/*Post*/}
-            
         </div>
     )
 }
-
-export default Feed;
+export default Feed

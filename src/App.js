@@ -10,7 +10,6 @@ function App() {
       {/*Feed section*/}
       <Feed />
       {/*Widgets*/}
-      <TweetBox />
     </div>
   );
 }
