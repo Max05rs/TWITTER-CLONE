@@ -4,42 +4,30 @@ import  ChatBubbleOutlineIcon  from '@material-ui/icons/ChatBubbleOutline'
 import  VerifiedUserIcon  from '@material-ui/icons/VerifiedUser'
 import RepeatIcon from '@material-ui/icons/Repeat'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
-import React, {forwardRef} from 'react'
 import './Post.css'
 
-const  Post = forwardRef(
-    ({
-        displayName,
-        username,
-        verified, 
-        text, 
-        image, 
-        avatar
-}, ref) => {
+function Post() {
     return (
-        <div className = "post" ref={ref}>
+        <div className = "post" >
             <div className = "post__avatar">
-                <Avatar 
-                    src = {avatar}
-                />
+                <Avatar />
             </div>
             <div className = "post__body">
                 <div className = "post__header">
                     <div className = "post__headerText">
-                    <h3>
-                        {displayName}
+                    <h3>DisplayName
                             <span className = "post__headerSpecial">
-                                {verified && <VerifiedUserIcon className = "post__badge" />}
-                                @{username}
+                                <VerifiedUserIcon className = "post__badge" />
+                                @username
                             </span>
                     </h3>
                     </div>
                     <div className = "post__headerDescription">
-                        <p>{text}</p>
+                        <p>This is message</p>
                     </div>
                 </div>
                 <img 
-                    src = {image}
+                    src = "src\assets\Profile_pic.jpeg"
                     alt = ""
                 />
                 <div className = "post__footer">
@@ -50,8 +38,8 @@ const  Post = forwardRef(
                 </div>
             </div>    
         </div>
-    )
-})
+    );
+}
 
 export default Post
 //1.19.48
