@@ -10,24 +10,24 @@ function Post() {
     return (
         <div className = "post" >
             <div className = "post__avatar">
-                <Avatar />
+                <Avatar src="https://the18.com/sites/default/files/styles/featured_mobile__621x709_/public/feature-images/20200226-The18-Image-Ronaldo-Reaction-Meme.png?itok=fo0Ifxvg" />
             </div>
             <div className = "post__body">
                 <div className = "post__header">
                     <div className = "post__headerText">
-                    <h3>DisplayName
+                    <h3>Rajwant Sandhu
                             <span className = "post__headerSpecial">
                                 <VerifiedUserIcon className = "post__badge" />
-                                @username
+                                @punpun
                             </span>
                     </h3>
                     </div>
                     <div className = "post__headerDescription">
-                        <p>This is message</p>
+                        <p>Mountains get me going!!! </p>
                     </div>
                 </div>
                 <img 
-                    src = "src\assets\Profile_pic.jpeg"
+                    src = "https://media.giphy.com/media/NbnNvyCDQczPY81XtX/giphy.gif"
                     alt = ""
                 />
                 <div className = "post__footer">

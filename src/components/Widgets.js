@@ -1,12 +1,16 @@
 import React from 'react'
 import './Widgets.css'
+import {
+    TwitterTimelineEmbed,
+    TwitterShareButton,
+    TwitterTweetEmbed
+} from 'react-twitter-embed'
+import SearchIcon from '@material-ui/icons/Search'
 
 function Widgets() {
-  return (
-    <div className='widgets'>
-        sample Widgets
-    </div>
-  )
+    return (
+        <h2>hello</h2>
+    )
 }
 
 export default Widgets

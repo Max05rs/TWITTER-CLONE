@@ -19,7 +19,7 @@ function TweetBox() {
             <form>
                 <div className = "tweetBox__input">
                     <Avatar
-                        src = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F73%2F60%2F8f%2F73608ffc5b6e0c3f20058185986bdbad.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fb4th--1085297210175358801%2F&tbnid=KfSR9eO3sr7oCM&vet=12ahUKEwic_5a--ZP6AhX4lNgFHeYmCsUQMygEegUIARDJAQ..i&docid=8F9GsUVMTnu82M&w=720&h=1280&q=ronaldo%20funny%20face&ved=2ahUKEwic_5a--ZP6AhX4lNgFHeYmCsUQMygEegUIARDJAQ"
+                        src = "https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-looks-dejected-during-the-uefa-league-picture-id1126287114?k=20&m=1126287114&s=612x612&w=0&h=f_SrzMy-jAvkJ-YUqySk81X1oltDgajL5Mj4fdSxCCA="
                     />
                     <input 
                         onChange = {(e) => setTweetMessage(e.target.value)}
