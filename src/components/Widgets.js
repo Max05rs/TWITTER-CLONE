@@ -2,8 +2,11 @@ import React from 'react'
 import './Widgets.css'
 import {
     TwitterTimelineEmbed,
-    TwitterShareButton,
-    TwitterTweetEmbed
+    TwitterFollowButton,
+    TwitterTweetEmbed,
+    TwitterDMButton,
+    TwitterHashtagButton,
+    TwitterVideoEmbed
 } from 'react-twitter-embed'
 import SearchIcon from '@material-ui/icons/Search'
 
@@ -21,16 +24,27 @@ function Widgets() {
                     Whats'happening
                 </h2>
                 <TwitterTweetEmbed tweetId = {"28023330"} />
-
+                
                 <TwitterTimelineEmbed 
                     sourceType = "profile"
                     screenName = "Crunchyroll"
                     options = {{ height: 400 }}
                 />
-
-                <TwitterShareButton 
-                    url = {"https://facebook.com/akkyProjects"}
-                    options = { { text : "Subscribe my Youtube Channel #CodeWithAkky" , via :  "akkyProjects" }}
+                 
+                 <TwitterVideoEmbed
+                     id={'1571303113176268803'}
+                />
+                
+                <TwitterHashtagButton
+                    tag={'anime'}
+                />
+                
+                <TwitterFollowButton
+                    screenName={'Crunchyroll'}
+                />
+                
+                <TwitterDMButton
+                    id={28023330}
                />
             </div>
         </div>

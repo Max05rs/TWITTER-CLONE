@@ -12,6 +12,7 @@ function Feed() {
 
             <TweetBox />
             <Post />
+            <Post />
         </div>
     )
 }
