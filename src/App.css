@@ -1,8 +1,14 @@
-body{
+:root{
     --twitter-color:#50b7f5;
     --twitter-background:#e6ecf0;
 }
 
+
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+    
+}
 
 .app{
     height: 100vh;
@@ -13,4 +19,18 @@ body{
     padding: 0 10px;
     
 
+}
+:root {
+    --blue: rgb(26, 57, 87);
+    --white: rgb(236,236,236);
+}
+
+body.light{
+    --background-color: var(--white);
+    --text-color: var(--blue);
+}
+
+body.dark{
+    --background-color: var(--blue);
+    --text-color: var(--white);
 }

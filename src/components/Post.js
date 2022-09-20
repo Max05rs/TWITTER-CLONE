@@ -10,7 +10,7 @@ function Post() {
     return (
         <div className = "post" >
             <div className = "post__avatar">
-                <Avatar src="https://the18.com/sites/default/files/styles/featured_mobile__621x709_/public/feature-images/20200226-The18-Image-Ronaldo-Reaction-Meme.png?itok=fo0Ifxvg" />
+                <Avatar src="https://cdn.fansshare.com/photo/cristianoronaldo/cristiano-ronaldo-funny-face-cristiano-ronaldo-323199414.jpg" />
             </div>
             <div className = "post__body">
                 <div className = "post__header">
